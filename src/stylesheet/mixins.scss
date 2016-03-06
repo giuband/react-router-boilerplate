@@ -1,0 +1,26 @@
+@import "./variables.scss";
+
+@mixin main-content {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  @media screen and (min-width: $break-sm) {
+    width: 750px;
+  }
+  @media screen and (min-width: $break-md) {
+    width: 970px;
+  }
+  @media screen and (min-width: $break-lg) {
+    width: 1170px;
+  }
+}
+
+@mixin side-margin {
+  padding-left: 10px;
+  padding-right: 10px;
+  @media screen and (min-width: $break-lg) {
+    padding-left: 65px;
+    padding-right: 65px;
+  }
+}

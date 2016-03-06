@@ -1,0 +1,48 @@
+@import '../variables.scss';
+@import '../mixins.scss';
+
+.navbar-container {
+  background: $navbar-color;
+  margin: 0;
+  height: $navbar-height;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.navbar {
+  @include main-content;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  ul {
+    display: inline-block;
+    margin: 0;
+    padding-left: 0;
+  }
+  .navbar-right {
+    float: right;
+    a {
+      padding: 0 15px 17px;
+      &.active {
+        color: $regular-text-color-hover;
+        border-bottom: 4px solid $active-link-border;
+      }
+      &:hover {
+        color: $regular-text-color-hover;
+      }
+    }
+  }
+  li {
+    list-style: none;
+    display: inline-block;
+    margin-top: $navbar-height / 2;
+    transform: translateY(-50%);
+  }
+  a {
+    text-decoration: none;
+    color: $regular-text-color;
+    font-size: 13px;
+  }
+}

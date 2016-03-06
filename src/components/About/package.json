@@ -1,0 +1,5 @@
+{
+  "name": "About",
+  "private": true,
+  "main": "./About.jsx"
+}

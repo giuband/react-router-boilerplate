@@ -1,0 +1,21 @@
+@import "../mixins.scss";
+@import "../variables.scss";
+
+btn {
+  padding: 10px 30px;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color, color, 0.3s, ease-in;
+  text-transform: uppercase;
+}
+
+.btn-default {
+  @include transparent-black-border;
+  color: $transparent-black-border;
+  &:hover {
+    background-color: $transparent-black-border;
+    color: $bright-text-color;
+  }
+}
+
+.btn-primary {}

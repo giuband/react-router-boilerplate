@@ -1,0 +1,15 @@
+@import "../variables.scss";
+
+.error-page-container {
+  text-align: center;
+  margin: 100px auto;
+  max-width: 400px;
+}
+
+.error-page-title {
+  color: $bright-text-color;
+}
+
+.error-page-description {
+  color: $regular-text-color;
+}
