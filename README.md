@@ -14,7 +14,7 @@ npm install
 
 Then use
 ```
-npm run dev
+npm start
 ```
 to run a development server with hot reloading, or
 ```
