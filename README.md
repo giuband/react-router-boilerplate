@@ -18,6 +18,6 @@ npm start
 ```
 to run a development server with hot reloading, or
 ```
-npm deploy
+npm run deploy
 ```
 to generate the final static files.
